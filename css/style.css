@@ -11,13 +11,19 @@ body {
     height: 50vmin;
     width: 50vmin;
     margin: auto;
+    position: fixed;
     background: radial-gradient(circle at top, #232A34, #171E28);
     border-radius: 5vmin;
     padding: 5vmin;
 }
 #card-1 {
+    z-index: 2;
+}
+#card-2 {
     display: grid;
-    position: fixed;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    z-index: 1;
 }
 .circle {
     display: flex;
@@ -90,11 +96,6 @@ input[type="radio"]:checked + label {
     background-color: white;
     color: hsl(25, 97%, 53%);
 }
-#card-2 {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-items: center;
-}
 .rate-selected {
     align-self: center;
     display: grid;
@@ -109,7 +110,7 @@ input[type="radio"]:checked + label {
     font-size: 2.3vmin;
     color: hsl(25, 97%, 53%);
 }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 480px){
     .card {
         height: 75vmin;
         width: 75vmin;
