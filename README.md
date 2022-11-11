@@ -36,6 +36,9 @@ Active states
 Thank You!
 ![](screenshot/thank-you.png)
 
+Mobile
+![](screenshot/mobile.jpg)
+
 ### Links
 
 - Solution URL: [here](https://celadon-mochi-c6df84.netlify.app/)
@@ -68,9 +71,7 @@ Using JS Promise to prevent state changes during the animation
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+In the future, I'm going to expand my knowledge of pure JavaScript and master some frameworks.
 
 ### Useful resources
 
