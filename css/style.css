@@ -2,15 +2,14 @@ body {
     margin: 0;
     height: 100vh;
     width: 100vw;
-    display: grid;
-    place-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #141519;
-    position: fixed;
 }
 .card {
     height: 50vmin;
     width: 50vmin;
-    margin: auto;
     position: fixed;
     background: radial-gradient(circle at top, #232A34, #171E28);
     border-radius: 5vmin;
