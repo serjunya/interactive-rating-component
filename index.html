@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+  <div id="card-1" class="card">
+    <div class="circle">
+      <img src="images/icon-star.svg" alt="star" height="32%" width="34%">
+    </div>
+    <div class="title text">
+      <p>How did we do?</p>
+    </div>
+    <div class="subtitle text">
+      <p>
+        Please let us know how we did with your support request.
+        All feedback is appreciated to help us improve our offering!
+      </p>
+    </div>
+    <form>
+      <div class="grades">
+        <input id="grade-1" type="radio" value="1" name="grades">
+        <label class="text circle" for="grade-1">1</label>
+        <input id="grade-2" type="radio" value="2" name="grades">
+        <label class="text circle" for="grade-2">2</label>
+        <input id="grade-3" type="radio" value="3" name="grades">
+        <label class="text circle" for="grade-3">3</label>
+        <input id="grade-4" type="radio" value="4" name="grades">
+        <label class="text circle" for="grade-4">4</label>
+        <input id="grade-5" type="radio" value="5" name="grades">
+        <label class="text circle" for="grade-5">5</label>
+      </div>
+      <button type="submit" class="text submission">SUBMIT</button>
+    </form>
+  </div>
+  <div id="card-2" class="card">
+    <img src="images/illustration-thank-you.svg" alt="thank_you" height="85%" width="50%">
+    <div class="rate-selected">
+      <p id="rateVariable" class="text"></p>
+    </div>
+    <div class="title text title2">
+      <p>Thank you!</p>
+    </div>
+    <div class="subtitle text sub2">
+      <p>
+        We appreciate you taking the time to give a rating. If you ever need more support,
+        don’t hesitate to get in touch!
+      </p>
+    </div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
