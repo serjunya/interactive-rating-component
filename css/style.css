@@ -13,7 +13,7 @@ body {
     padding: 5vmin;
 }
 #card-1 {
-    display: block;
+    display: grid;
     position: absolute;
 }
 .circle {

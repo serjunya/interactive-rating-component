@@ -27,12 +27,18 @@ Users should be able to:
 - See the "Thank you" card state after submitting a rating
 
 ### Screenshot
+Desktop
+![](screenshot/desktop.png)
 
-![](./screenshot.jpg)
+Active states
+![](screenshot/active-states.png)
+
+Thank You!
+![](screenshot/thank-you.png)
 
 ### Links
 
-- Solution URL:
+- Solution URL: [here](https://celadon-mochi-c6df84.netlify.app/)
 
 ## My process
 
